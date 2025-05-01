@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="pageTitle">Client's Dashboard | Books Advisor</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="src/favicon.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html, body {
+            height: 100%;
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .container {
+            position: absolute;
+            top: 0; /* Changed to 0 since header will be floating */
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%; /* Take full height since header is floating */
+        }
+        
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        .header {
+            position: fixed;
+            top: -40px;
+            left: 0;
+            right: 0;
+            height: 40px;
+            background: #f4faf6;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 0 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            transition: top 0.3s ease;
+            backdrop-filter: blur(8px);
+            background: rgba(244, 250, 246, 0.95);
+        }
+
+        /* Create a hover trigger area */
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            height: 20px;
+            background: transparent;
+        }
+
+        /* Arrow indicator */
+        .header::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            bottom: -12px;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 4px;
+            background: #184C39;
+            border-radius: 4px;
+            opacity: 0.7;
+            transition: all 0.3s ease;
+        }
+
+        /* Animated arrow on hover */
+        .header:hover::after {
+            transform: translateX(-50%) scaleX(0.7);
+            opacity: 0;
+            transition-delay: 0.1s;
+        }
+
+        /* Show header when hovering */
+        .header:hover {
+            top: 0;
+            box-shadow: 0 2px 8px rgba(24, 76, 57, 0.15);
+        }
+
+        .logout-btn {
+            padding: 6px 16px;
+            background: #184C39;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            font-size: 14px;
+            transition: all 0.2s ease;
+        }
+
+        .logout-btn:hover {
+            background: #256c4c;
+            transform: translateY(-1px);
+            box-shadow: 0 2px 4px rgba(24, 76, 57, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <button id="logoutBtn" class="logout-btn">Logout</button>
+    </div>
+    <div class="container">
+        <iframe id="powerbi-frame" title="3PL Dashboard" allowFullScreen="true">
+        </iframe>
+    </div>
+    <script>
+        // Check if user is logged in
+        const dashboardUrl = sessionStorage.getItem('dashboardUrl');
+        const companyName = sessionStorage.getItem('companyName');
+        
+        if (!dashboardUrl) {
+            window.location.href = 'index.html';
+        } else {
+            document.getElementById('powerbi-frame').src = dashboardUrl;
+            // Update page title with company name
+            document.getElementById('pageTitle').textContent = `${companyName} | Books Advisor`;
+        }
+
+        // Handle logout
+        document.getElementById('logoutBtn').addEventListener('click', () => {
+            sessionStorage.clear();
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html> 
