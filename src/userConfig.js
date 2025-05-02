@@ -23,6 +23,10 @@ const userDashboards = {
         dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiZjA5ZDRjMmEtZjk0Yi00ZmI4LTkwODQtMTY4YzQ3YzQxM2FmIiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
         companyName: "Zircon Accessories"
     },
+    "JaysinAnderson@elevateaccounting.pt": {
+        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiNTAyNTkxMGYtNzMzNi00MzU5LWE2MTEtNWVjN2VjYmJmNjkyIiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
+        companyName: "Elevate Accounting"
+    },
     "zohaib8989@gmail.com": {
         dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiZGNhYjVmZDYtZGNiYy00NjdhLTgyNTUtODdjYTE5MjQ4OGIyIiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
         companyName: "Wealth Track"
