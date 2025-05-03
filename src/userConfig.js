@@ -8,7 +8,7 @@ const userDashboards = {
     
     // Real examples (replace with actual emails and URLs):
     "erik@1sttiertraffic.com": {
-        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiZDBjNzI0OGQtMjA3Yy00NzUzLWJmN2YtZDNmYzllMTM0NWQxIiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
+        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiZWQ4OWRlZjMtZTNkNy00ZWE4LWJjZTEtMWU3YmUwNzhmNjVhIiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
         companyName: "Limitless Life"
     },
     "khalid@algooru.com": {
