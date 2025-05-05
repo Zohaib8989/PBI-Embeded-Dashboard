@@ -24,7 +24,7 @@ const userDashboards = {
         companyName: "Zircon Accessories"
     },
     "JaysinAnderson@elevateaccounting.pt": {
-        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiOGJmN2RmYjktOTZkNC00MWU2LTg5MzYtNjBhMzQ3ZGRmOGYwIiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
+        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiOTI5Zjg5ZWQtZjBjNy00MTFmLWE3ZjUtNzFiMmVhMmM5YmE5IiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
         companyName: "Elevate Accounting"
     },
     "zohaib8989@gmail.com": {
