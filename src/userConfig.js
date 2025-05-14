@@ -12,15 +12,15 @@ const userDashboards = {
         companyName: "Limitless Life"
     },
     "khalid@algooru.com": {
-        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiYzk4MGRmMDgtYmUzNS00NDJiLThkNWYtY2YwMTJkY2QxYjkwIiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
+        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiNDkwMWI0NjktYjNkZC00ZWQ4LWJkNWItYWM3YzNlZmI1OTQ1IiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
         companyName: "Zircon Accessories"
     },
     "amr@zirconaccessories.com": {
-        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiYzk4MGRmMDgtYmUzNS00NDJiLThkNWYtY2YwMTJkY2QxYjkwIiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
+        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiNDkwMWI0NjktYjNkZC00ZWQ4LWJkNWItYWM3YzNlZmI1OTQ1IiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
         companyName: "Zircon Accessories"
     },
     "husam@zirconaccessories.com": {
-        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiYzk4MGRmMDgtYmUzNS00NDJiLThkNWYtY2YwMTJkY2QxYjkwIiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
+        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiNDkwMWI0NjktYjNkZC00ZWQ4LWJkNWItYWM3YzNlZmI1OTQ1IiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
         companyName: "Zircon Accessories"
     },
     "JaysinAnderson@elevateaccounting.pt": {
