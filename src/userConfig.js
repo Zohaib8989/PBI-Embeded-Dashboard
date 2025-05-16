@@ -12,7 +12,7 @@ const userDashboards = {
         companyName: "Limitless Life"
     },
     "khalid@algooru.com": {
-        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiMTk3ODI2MzYtOTA0Zi00YWJkLWJlNmQtNjcwZDVlZjE5MmMxIiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
+        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiYTViYmE4ODEtM2VlZS00YTk2LTljNzQtZDZjYTRmNzA4NGU1IiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
         companyName: "Zircon Accessories"
     },
     "amr@zirconaccessories.com": {
