@@ -16,11 +16,11 @@ const userDashboards = {
         companyName: "AKB Holdings"
     },
     "amr@zirconaccessories.com": {
-        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiZWE0N2U3YjEtNDJmZC00NjJmLThhMGEtZTE0MDM2YzFiNGFjIiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
+        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiYTRkNTBjOTMtNGM2OS00NDliLWJlMTUtZjlmNTUzZDA4N2QyIiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
         companyName: "Zircon Accessories"
     },
     "husam@zirconaccessories.com": {
-        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiZWE0N2U3YjEtNDJmZC00NjJmLThhMGEtZTE0MDM2YzFiNGFjIiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
+        dashboardUrl: "https://app.powerbi.com/view?r=eyJrIjoiYTRkNTBjOTMtNGM2OS00NDliLWJlMTUtZjlmNTUzZDA4N2QyIiwidCI6ImM3NzU3Njk5LWZmZTMtNDhlNi04ZWY2LTUyY2I1ZWQyNDgxMSIsImMiOjl9",
         companyName: "Zircon Accessories"
     },
     "JaysinAnderson@elevateaccounting.pt": {
